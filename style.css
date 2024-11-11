@@ -131,7 +131,7 @@ body{
      /** box7 **/
      .img5{
       height:500px;
-      width:1300px;
+      width:1400px;
      }
        /** box8 **/
        .img66{
@@ -247,6 +247,7 @@ body{
     
     .menu-icon{
         height:150px;
+        width: 150px;
         display: block;
         margin:10px auto;
     }
