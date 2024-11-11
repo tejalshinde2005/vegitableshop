@@ -290,9 +290,130 @@ body{
         color:#001858;
     
     }
+/*Mobile Device */
+@media screen and (min-width:400px){
+  .heading{
+    font font-family:Roboto Slab ;
+    font-size:25px;
+    text-align:center;
+    color:#001858;
+    }
 
 
+.class-container{
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  flex-direction: space-evenly;
+  background-color: #def4f7;
+  margin: 0;
+  padding: 0;
+}
 
+.img5{
+  height:300px;
+  width:400px;
+ }
+
+ .text4{
+  font-size:22px;
+}
+
+.text1{
+  font-size:20px;
+  color:#172c66;
+  font-family:dancing script;
+ }
+ .sub-title-highlight{
+  font-size:25px;
+ }
+ 
+ 
+ .img66{
+  height:300px;
+  width:350px;
+  margin:10px 60px;
+  margin-left: 10px;
+  border:5px solid #d3dbf1;
+  box-shadow: -6px 6px 15px 3px #86a2ee ;
+ }
+}
+/*Tablate  Device */
+@media screen and (min-width:401 px) and (max-width:768px){
+  .heading{
+    font font-family:Roboto Slab ;
+    font-size:35px;
+    text-align:center;
+    color:#001858;
+    }
+    .img5{
+      height:500px;
+      width:500px;
+      
+     }
+     .text1{
+      font-size:30px;
+      color:#172c66;
+      font-family:dancing script;
+     }
+     .sub-title-highlight{
+      font-size:45px;
+     }
+
+     .img66{
+      height:300px;
+      width:300px;
+      margin:20px 60px;
+      border:5px solid #d3dbf1;
+      box-shadow: -6px 6px 15px 3px #86a2ee ;
+     }
+     .text3{
+      font-size:30px;
+      text-wrap: ;
+    }
+    .text4{
+      font-size:22px;
+        text-wrap: ;
+    }
+    }
+
+/*Laptop Device */
+@media screen and (min-width:760px){
+  .heading{
+    font font-family:Roboto Slab ;
+    font-size:50px;
+    text-align:center;
+    color:#001858;
+  }
+    .img5{
+      height:500px;
+      width:1400px;
+     }
+
+     .text1{
+      font-size:40px;
+      color:#172c66;
+      font-family:dancing script;
+     }
+
+     .sub-title-highlight{
+      font-size:45px;
+     }
+     .img66{
+      height:450px;
+      width:700px;
+      margin:20px 60px;
+      border:5px solid #d3dbf1;
+      box-shadow: -6px 6px 15px 3px #86a2ee ;
+     }
+     .text3{
+      font-size:30px;
+    }
+    .text4{
+      font-size:22px;
+    }
+     
+}
 
 
 
